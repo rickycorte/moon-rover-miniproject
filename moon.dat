@@ -1,0 +1,51 @@
+data;
+
+set Nodes := 0 1 2 3 4 5 6 7 8 9 10 ;
+
+param start := 0;
+
+param pos_x:=
+0	4
+1	1
+2	2
+3	4
+4	5
+5	7
+6	7
+7	7
+8	8
+9	8
+10	9
+;
+
+param pos_y :=
+0	6
+1	8
+2	3
+3	10
+4	2
+5	3
+6	6
+7	8
+8	1
+9	4
+10	7
+;
+
+param value :=
+0	0
+1	3
+2	3
+3	5
+4	4
+5	5
+6	4
+7	2
+8	2
+9	1
+10	1
+;
+
+param move_cost_km := 1;
+param rot_cost_radiant := 0.5;
+param max_charge := 25;
