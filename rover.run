@@ -1,5 +1,4 @@
 reset;
-
 option solver cplex; 
 model rover.mod;
 data moon.dat;
